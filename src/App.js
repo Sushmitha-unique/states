@@ -8,11 +8,11 @@ import Fruit from "./Components/Fruit.js";
 const App = () => {
     return (
         <div>
-    {/*/<Basic/>*/}
-    {/* <Counterapp/> */}
-    {/* <Object/><br/>
-    <Livetype/>*/}
-    {/* <Buttontype/> */}
+    <Basic/>
+     <Counterapp/> 
+     <Object/><br/>
+    <Livetype/>
+    <Buttontype/>
     <Fruit/>
     </div>
 ) 
