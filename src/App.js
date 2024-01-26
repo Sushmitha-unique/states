@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import React from "react";
+import Basic from "./Components/Basic.js"
+import Counterapp from "./Components/Counterapp.js"
+import Object from "./Components/Object.js";
+import Livetype from "./Components/Livetype.js";
+import Buttontype from "./Components/Buttontype.js";
+import Fruit from "./Components/Fruit.js";
+const App = () => {
+    return (
+        <div>
+    {/*/<Basic/>*/}
+    {/* <Counterapp/> */}
+    {/* <Object/><br/>
+    <Livetype/>*/}
+    {/* <Buttontype/> */}
+    <Fruit/>
     </div>
-  );
+) 
 }
 
 export default App;
